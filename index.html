@@ -8,7 +8,7 @@
     <meta content="" name="keywords">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible"><link rel="shortcut icon" href="favicon.png" type="image/png">
-    <link rel="stylesheet" href="/assets/css/app.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/app.css"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
@@ -18,13 +18,12 @@
       <div class="close-modal">	&times;</div>
       <div class="show-work__img-modal"><img src="" alt="" id="imgPrev"></div>
     </div>
-    <section class="header">
-      <div id="particles-js">
+    <section class="header" id="particles-js">
         <div class="wrap">
           <nav>
             <div class="logotype">GODBRAND</div>
-            <div class="cover_menu_for_phone">
-              <div class="menu_for_phone"></div>
+            <!-- <div class="cover_menu_for_phone">
+              <div class="menu_for_phone"></div> -->
             </div>
             <ul class="manu__header">
               <div class="menu_for_phone"></div>
@@ -42,10 +41,20 @@
               <div class="information__buttons" data-url="portfolio">Портфолио</div>
               <div class="information__buttons" data-url="contact">Контакты</div>
             </div>
-            <div class="image__header"><img src="assets/img/header.png"></div>
+            <div class="image__header">
+              <img src="assets/img/pc.svg">
+            </div>
+            <div id='browser_green'>
+                <img src="assets/img/b2.svg" alt="">
+            </div>
+            <div id='browser_first'>
+                <img src="assets/img/browsser.svg" alt="">
+            </div>
+            <div id='browser_second'>
+              <img src="assets/img/b3.svg" alt="">
+          </div>
           </div>
         </div>
-      </div>
     </section>
     <section class="about_us">
       <div class="wrap">
@@ -60,7 +69,9 @@
               <p>Мои навыки:</p><img src="assets/img/skils.png">
             </div>
           </div>
-          <div class="center-box__image_about_us"><img src="assets/img/about.svg"></div>
+          <div class="center-box__image_about_us">
+            <img src="assets/img/about.svg" alt="Илистрация">
+          </div>
         </div>
       </div>
     </section>
